@@ -1,0 +1,33 @@
+p{
+    font-family: 'Rubik Dirt', cursive;
+    font-size:35px ;
+}
+ul{
+    font-family: 'Rubik Dirt', cursive;
+    font-size: 35px;
+ 
+}
+h1{
+    color: teal;
+    font-family: 'Bowlby One SC', cursive
+    
+}
+.w3-text-teal{
+    font-family: 'Bowlby One SC', cursive
+}
+
+img{
+    width:400px;
+    length: 350px;
+    border-color: teal;
+}
+body{
+    background-color: rgb(190, 185, 185);
+}
+h4{
+    color: teal;
+    font-family:'Bowlby One SC', cursive ;
+}
+a{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
