@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>PORTFOLIO</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="STYLE.CSS">
+<link rel="stylesheet" href="h.js">
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+</style>
+</head>
+<body>
+
+
+<div class="header">
+  <nav class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a class="w3-bar-item w3-theme-l1">EC DEVELOPER</a>
+    <a href="#about" class="about w3-bar-item w3-button w3-hide-small w3-hover-white">ABOUT</a>
+    <a href="#education" class="education w3-bar-item w3-button w3-hide-small w3-hover-white">EDUCATION</a>
+    <a href="#fEducation" class="education w3-bar-item w3-button w3-hide-small w3-hover-white">FUTURE EDUCATION</a>
+    <a href="#resume" class="resume w3-bar-item w3-button w3-hide-small w3-hover-white">RESUME</a>
+    <a href="#myFooter" class="contact w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">CONTACT</a>
+  </nav>
+</div>
+
+
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  </a>
+  <h4 class="skills"><b>Skills</b></h4>
+  <a class="w3-bar-item  " href="#">HTML</a>
+  <a class="w3-bar-item " href="#">CSS</a>
+  <a class="w3-bar-item " href="#">JAVASCRIPT</a>
+  <a class="w3-bar-item " href="#">REACT</a>
+  <a class="w3-bar-item  " href="#">SQL</a>
+  <a class="w3-bar-item  " href="#">GIT</a>
+  <a class="w3-bar-item  " href="#">NODE</a>
+</nav>
+
+
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+
+<div class="w3-main" style="margin-left:250px">
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 id="about" class="w3-text-teal">ABOUT ME</h1>
+      <p> Hello everyone. My name is Emanuel Chudy. I was born in Poland and moved 
+        to the United States at the age of eight. Since discovering the world of 
+        development, I have been obsessed with learning and improving my skills in 
+        the industry. I am looking forward to my future in development. I hope 
+        to be part of a company where I can make a real difference and improve more
+        as a developer and as a person.</p>
+    </div>
+    <div class="LOGO">
+      <p class="w3-border w3-padding-large w3-padding-32 w3-center"><img src="Emanuel Chudy-1.png" alt="logo"></p>
+    </div>
+  </div>
+
+  <div id="education" class="w3-row">
+    <div class="">
+      <h1 class="w3-text-teal">EDUCATION</h1>
+      <p>
+        <ul>
+        <li>Graduated Highschool in 2016</li>
+        <li>Attended College 2019 to 2020</li>
+        <li>Completed TrueCoders Fullstack boot camp in 2022</li>
+      </ul></p>
+    </div>
+    <div class="w3-third w3-container">
+        <p id="fEducation" class=" w3-padding-large w3-padding-32 w3-center"><p>
+            <h1>FURTHER EDUCATION INTEREST</h1>
+            <ul>
+            <li>UI/UX DESIGN</li>
+            <li>SOFTWARE DEVELOPMENT</li>
+            <li>DATA ANALYTICS</li>
+          </ul></p></p>
+      </div>
+      <div id="resume" class="resume">
+        <p class="w3-border w3-padding-large w3-padding-32 w3-center"><img src="resume.png" alt="logo"></p>
+      </div>
+  </div>
+
+
+
+
+  <footer id="myFooter">
+    <div class="w3-container w3-theme-l2 w3-padding-32">
+        <h1>CONTACT</h1>
+      <a href="mailto:mannychudy1998@gmail.com" class="w3-bar-item w3-button w3-hide-small w3-hover-white text-center">Email</a>
+      <a href="https://www.linkedin.com/in/emanuel-chudy-047827243/" class="w3-bar-item w3-button w3-hide-small w3-hover-white">LinkedIn</a>
+      <a href="https://github.com/Emanuel1203" class="w3-bar-item w3-button w3-hide-small w3-hover-white">GitHub</a>
+    </div>
+
+
+  </footer>
+
+
+</div>
+
+<script>
+var mySidebar = document.getElementById("mySidebar");
+
+
+var overlayBg = document.getElementById("myOverlay");
+
+
+
+</script>
+
+</body>
+</html>
